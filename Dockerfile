@@ -22,3 +22,7 @@ RUN mkdir /srv/jekyll
 ADD Gemfile /srv/jekyll
 WORKDIR /srv/jekyll
 RUN bundle install
+
+FROM ruby:3.0.3
+RUN gem install bundler --version=2.3.5
+RUN bundle install
