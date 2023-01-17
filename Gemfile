@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'mini_racer'
+    gem 'mini_racer', '~> 0.6.2'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
